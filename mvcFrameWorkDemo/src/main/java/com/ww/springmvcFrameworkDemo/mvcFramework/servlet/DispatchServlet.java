@@ -32,7 +32,9 @@ public class DispatchServlet extends HttpServlet {
 
     }
 
-    //初始化
+    /**
+     *初始化
+     */
     @Override
     public void init(ServletConfig config) throws ServletException {
         //1.加载配置文件
